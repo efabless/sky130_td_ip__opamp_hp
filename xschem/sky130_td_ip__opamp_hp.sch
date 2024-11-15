@@ -3066,8 +3066,6 @@ sa=0 sb=0 sd=0
 model=pfet_g5v0d10v5
 spiceprefix=X
 }
-C {devices/lab_wire.sym} 380 -560 0 0 {name=p7 sig_type=std_logic lab=avdd}
-C {devices/lab_wire.sym} 400 440 2 1 {name=p8 sig_type=std_logic lab=avss}
 C {devices/lab_wire.sym} -90 -110 2 0 {name=p9 sig_type=std_logic lab=avss}
 C {devices/lab_wire.sym} 90 -110 2 1 {name=p10 sig_type=std_logic lab=avss}
 C {devices/lab_wire.sym} -280 -10 2 0 {name=p11 sig_type=std_logic lab=avdd}
