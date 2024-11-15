@@ -3721,12 +3721,12 @@ C {devices/lab_wire.sym} 620 1370 3 0 {name=p64 sig_type=std_logic lab=vtailn}
 C {devices/lab_wire.sym} 920 1460 3 0 {name=p65 sig_type=std_logic lab=vtailn}
 C {devices/lab_wire.sym} 870 1420 2 1 {name=p66 sig_type=std_logic lab=vb3}
 C {devices/lab_wire.sym} 360 1070 0 1 {name=p67 sig_type=std_logic lab=vb2}
-C {devices/vsource.sym} -360 110 0 0 {name=V_ID1 value=0 savecurrent=true}
-C {devices/vsource.sym} 360 90 0 0 {name=V_ID2 value=0 savecurrent=true}
-C {devices/vsource.sym} -160 -250 0 0 {name=V_ID3 value=0 savecurrent=true}
-C {devices/vsource.sym} 160 -250 0 0 {name=V_ID4 value=0 savecurrent=true}
-C {devices/vsource.sym} 1700 -370 0 0 {name=V_ID25 value=0 savecurrent=true}
-C {devices/vsource.sym} 1700 230 0 0 {name=V_ID26 value=0 savecurrent=true}
+C {devices/vsource.sym} -360 110 0 0 {name=V_ID1 value=0 savecurrent=true lvs_ignore=short}
+C {devices/vsource.sym} 360 90 0 0 {name=V_ID2 value=0 savecurrent=true lvs_ignore=short}
+C {devices/vsource.sym} -160 -250 0 0 {name=V_ID3 value=0 savecurrent=true lvs_ignore=short}
+C {devices/vsource.sym} 160 -250 0 0 {name=V_ID4 value=0 savecurrent=true lvs_ignore=short}
+C {devices/vsource.sym} 1700 -370 0 0 {name=V_ID25 value=0 savecurrent=true lvs_ignore=short}
+C {devices/vsource.sym} 1700 230 0 0 {name=V_ID26 value=0 savecurrent=true lvs_ignore=short}
 C {sky130_fd_pr/pfet_g5v0d10v5.sym} -2740 1150 0 1 {name=M29
 L=0.5
 W=4
@@ -4339,13 +4339,13 @@ model=nfet_g5v0d10v5
 spiceprefix=X
 }
 C {devices/lab_pin.sym} -620 1720 1 0 {name=p141 sig_type=std_logic lab=vb3}
-C {devices/vsource.sym} -2120 30 0 0 {name=V_IB1 value=0 savecurrent=true}
-C {devices/vsource.sym} -1900 -10 0 0 {name=V_IB2 value=0 savecurrent=true}
-C {devices/vsource.sym} -1700 -20 0 0 {name=V_IB3 value=0 savecurrent=true}
-C {devices/vsource.sym} -1520 -10 0 0 {name=V_IB4 value=0 savecurrent=true}
-C {devices/vsource.sym} -1300 -10 0 0 {name=V_IB5 value=0 savecurrent=true}
-C {devices/vsource.sym} -1080 -10 0 0 {name=V_IB6 value=0 savecurrent=true}
-C {devices/vsource.sym} -860 0 0 0 {name=V_IB7 value=0 savecurrent=true}
+C {devices/vsource.sym} -2120 30 0 0 {name=V_IB1 value=0 savecurrent=true lvs_ignore=short}
+C {devices/vsource.sym} -1900 -10 0 0 {name=V_IB2 value=0 savecurrent=true lvs_ignore=short}
+C {devices/vsource.sym} -1700 -20 0 0 {name=V_IB3 value=0 savecurrent=true lvs_ignore=short}
+C {devices/vsource.sym} -1520 -10 0 0 {name=V_IB4 value=0 savecurrent=true lvs_ignore=short}
+C {devices/vsource.sym} -1300 -10 0 0 {name=V_IB5 value=0 savecurrent=true lvs_ignore=short}
+C {devices/vsource.sym} -1080 -10 0 0 {name=V_IB6 value=0 savecurrent=true lvs_ignore=short}
+C {devices/vsource.sym} -860 0 0 0 {name=V_IB7 value=0 savecurrent=true lvs_ignore=short}
 C {sky130_fd_pr/pfet_g5v0d10v5.sym} -2000 -230 0 1 {name=M78
 L=0.5
 W=4
@@ -4392,10 +4392,10 @@ model=pfet_g5v0d10v5
 spiceprefix=X
 }
 C {devices/lab_pin.sym} -460 1260 3 0 {name=p147 sig_type=std_logic lab=net21}
-C {devices/vsource.sym} 440 1250 0 0 {name=V_ID9 value=0 savecurrent=true}
-C {devices/vsource.sym} 920 1270 0 0 {name=V_ID6 value=0 savecurrent=true}
-C {devices/vsource.sym} 780 40 0 0 {name=V_ID15 value=0 savecurrent=true}
-C {devices/vsource.sym} 1080 50 0 0 {name=V_ID16 value=0 savecurrent=true}
+C {devices/vsource.sym} 440 1250 0 0 {name=V_ID9 value=0 savecurrent=true lvs_ignore=short}
+C {devices/vsource.sym} 920 1270 0 0 {name=V_ID6 value=0 savecurrent=true lvs_ignore=short}
+C {devices/vsource.sym} 780 40 0 0 {name=V_ID15 value=0 savecurrent=true lvs_ignore=short}
+C {devices/vsource.sym} 1080 50 0 0 {name=V_ID16 value=0 savecurrent=true lvs_ignore=short}
 C {sky130_fd_pr/pfet_g5v0d10v5.sym} -680 970 0 0 {name=M77
 L=0.5
 W=4
